@@ -1,5 +1,6 @@
 # .github/workflows/test_action.yaml
 name: Test Action
+run-name: Run name testing by ${{ github.actor }}
 on: [push]
 
 jobs:
